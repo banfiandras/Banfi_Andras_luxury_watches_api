@@ -1,0 +1,102 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "watches",
+    "collectionId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+    "dateExported": "2024-08-27T12:21:48.159Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "24e4e0d7-4a95-4703-83d0-174856ef1883",
+            "colId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+            "containerId": "",
+            "name": "get all watches",
+            "url": "http://127.0.0.1:8000/api/watches",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-27T11:41:13.267Z",
+            "modified": "2024-08-27T11:41:41.626Z",
+            "headers": []
+        },
+        {
+            "_id": "6a6e1b13-8af1-4ea6-b049-e0662c9f340d",
+            "colId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+            "containerId": "",
+            "name": "search watch",
+            "url": "http://127.0.0.1:8000/api/watches/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-27T11:52:59.373Z",
+            "modified": "2024-08-27T11:53:07.993Z",
+            "headers": []
+        },
+        {
+            "_id": "e0264e5d-3af8-4b4a-a4fa-f85e820ac1dc",
+            "colId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+            "containerId": "",
+            "name": "create watch",
+            "url": "http://127.0.0.1:8000/api/watches/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-08-27T11:59:04.435Z",
+            "modified": "2024-08-27T12:01:55.828Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\"Model\": \"Royal oak\",\r\n\"Brand_Id\": 2,\r\n\"Movement_Type\": \"Automatic\",\r\n\"Water_Resistance\": 200,\r\n\"Price_USD\": 3.3\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ea6740d7-306a-41fa-8d41-beedbc2f8a2d",
+            "colId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+            "containerId": "",
+            "name": "delete watch",
+            "url": "http://127.0.0.1:8000/api/watches/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-27T12:06:56.276Z",
+            "modified": "2024-08-27T12:07:10.307Z",
+            "headers": []
+        },
+        {
+            "_id": "0ff9fe49-d143-4e5f-b551-e1910cbe7d83",
+            "colId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+            "containerId": "",
+            "name": "update watch",
+            "url": "http://127.0.0.1:8000/api/watches/1",
+            "method": "PATCH",
+            "sortNum": 60000,
+            "created": "2024-08-27T12:09:35.434Z",
+            "modified": "2024-08-27T12:10:42.197Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Price_USD\": 10\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "53a95704-3ea4-4daa-90a5-8a11532160ac",
+            "colId": "3cac1e96-63c5-4695-8016-1221d8cb798d",
+            "containerId": "",
+            "name": "wathces of brand",
+            "url": "http://127.0.0.1:8000/api/brands/1/watches",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-08-27T12:17:02.027Z",
+            "modified": "2024-08-27T12:17:41.077Z",
+            "headers": []
+        }
+    ],
+    "ref": "aiMm5ejGYnbSNz1_JnjKlx1OMhjzrco5f9ovyjleuKv3PEw_PDTlqZwuUvGIAaWVsK3oCCpjHVSuSQNwW3aGEw"
+}
